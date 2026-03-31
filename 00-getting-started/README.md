@@ -374,7 +374,6 @@ For a full walkthrough of all these features, see the [AgentCore CLI Workshop](h
 ### Useful resources
 
 - [AgentCore CLI documentation](https://github.com/aws/agentcore-cli)
-- [AgentCore Samples repository](https://github.com/awslabs/agentcore-samples)
 - [Amazon Bedrock AgentCore documentation](https://docs.aws.amazon.com/bedrock-agentcore/)
 - [Strands Agents SDK](https://strandsagents.com/)
 
@@ -385,8 +384,8 @@ For a full walkthrough of all these features, see the [AgentCore CLI Workshop](h
 To tear down all deployed resources:
 
 ```bash
-agentcore remove --all
-agentcore deploy -y
+agentcore remove all
+agentcore deploy
 ```
 
 This deletes the AgentCore Runtime and all associated AWS resources (IAM roles, S3 artifacts, CloudFormation stack).
