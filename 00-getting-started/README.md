@@ -1,8 +1,11 @@
-# Getting Started with Amazon Bedrock AgentCore CLI
+# Getting Started with Amazon Bedrock AgentCore
 
-Build, test, and deploy an AI agent to the cloud in under 10 minutes using the [AgentCore CLI](https://github.com/aws/agentcore-cli).
+Build, test, and deploy an AI agent to AgentCore in under 10 minutes.
 
-This sample walks you through creating a customer support agent with custom tools, running it locally, and deploying it to [Amazon Bedrock AgentCore](https://aws.amazon.com/bedrock/agentcore/) — a fully managed, serverless runtime for AI agents.
+
+Amazon Bedrock AgentCore supports various interfaces for developing and deploying your agent code. At the lowest level, you can interact with the AgentCore APIs directly or through the [AWS SDKs](https://docs.aws.amazon.com/sdkref/latest/guide/overview.html) (such as [boto3](https://docs.aws.amazon.com/boto3/latest/reference/services/bedrock-agentcore.html)). For a simpler development experience, the [AgentCore Python SDK](https://github.com/aws/bedrock-agentcore-sdk-python) and [AgentCore Typescript SDK](https://github.com/aws/bedrock-agentcore-sdk-typescript) provide higher-level abstractions for integrating with AgentCore services like runtime, memory, and tools. The [AgentCore CLI](https://github.com/aws/agentcore-cli) builds on top of these, offering the best developer experience that lets you quickly scaffold, configure, and deploy agents. The AgentCore CLI is the easiest way to get started, and continues to be the best developer experience as you iterate on your agents. 
+
+In this sample, we use the AgentCore CLI to walk through one simple example — a customer support agent with custom tools — but AgentCore supports much more: persistent memory, centralized tool management via MCP Gateway, identity and auth, observability, evaluations, and multi-framework support (Strands, LangGraph, CrewAI, OpenAI Agents SDK, Google ADK, and others).
 
 ## What You'll Build
 
